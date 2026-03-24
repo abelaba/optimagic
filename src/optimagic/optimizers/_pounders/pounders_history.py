@@ -251,7 +251,7 @@ class LeastSquaresHistory:
         return self.get_critvals(index=self.best_index)
 
     def get_best_centered_entries(self, center_info):
-        return self.get_centered_entries(self, center_info, index=self.best_index)
+        return self.get_centered_entries(center_info, index=self.best_index)
 
 
 def _add_entries_to_array(arr, new, position):
