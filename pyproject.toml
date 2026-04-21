@@ -479,7 +479,6 @@ pandas-stubs = "*"
 types-cffi = "*"
 types-openpyxl = "*"
 types-jinja2 = "*"
-sqlalchemy-stubs = "*"
 
 [tool.pixi.feature.type-checking.tasks]
 mypy = { cmd = "mypy", description = "Run mypy type checker" }
